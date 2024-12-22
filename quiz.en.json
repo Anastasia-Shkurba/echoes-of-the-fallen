@@ -1,0 +1,349 @@
+{
+  "questions": [
+    {
+      "question": "As your senses slowly return, the cold, damp air of the forgotten place fills your lungs. The faintest echoes of something — a distant memory, perhaps? — stir in your mind, but they dissolve as quickly as they come. The shadows cling to the corners of the room, and the air smells faintly of dust and decay. You feel yourself lying on a cold, stone floor, the remnants of shattered glass and arcane tools scattered around you.\nYour hand brushes against something sharp. You grasp a jagged piece of broken mirror, its edges strangely warm to the touch. Holding it up, you see fragments of yourself reflected — distorted, fleeting, and unfamiliar. The shards shift and rearrange, as though the mirror itself is unsure of who you are.\nSo... Who are you?\nThe question lingers in the air, but the answer lies in your choice. You must decide now.",
+      "answers": [
+        {
+          "text": "Male",
+          "points": {
+            "male": 1
+          }
+        },
+        {
+          "text": "Female",
+          "points": {
+            "female": 1
+          }
+        }
+      ],
+      "background": "tomb-bg.jpeg"
+    },
+    {
+      "question": "You slowly rise to your feet, your gaze lingering for a moment on the fractured surface of a nearby mirror. The reflection staring back at you feels unfamiliar, yet oddly fitting, as if something deep within you has stirred, shifted, and the air now feels heavier, as if your path is already beginning to unfold.\nYou step cautiously into the dim corridor that stretches before you, the flickering of unseen light revealing faint cracks in the walls. The passage leads you into what appears to be a grand hall, though much of it has crumbled over time. Massive, broken columns lean like weary giants, and shards of shattered mirrors litter the cold floor. Each broken reflection seems to whisper, as though trying to tell you something about who you are.\nThe silence is broken by a soft shuffle of feet, and suddenly, shadows in the corner of the room begin to move. A small group of figures emerges from the darkness, their eyes glowing faintly in the gloom. They seem neither fully hostile nor friendly, but they are clearly waiting for a sign — a gesture, a word, an action. You take a step forward, uncertain, but the tension in the air demands a decision.",
+      "answers": [
+        {
+          "text": "Stand firm, preparing to face whatever comes",
+          "points": {
+            "keeper": 1,
+            "revenant": 1
+          }
+        },
+        {
+          "text": "Analyze their movements, searching for an opening",
+          "points": {
+            "seeker": 1,
+            "conqueror": 1
+          }
+        },
+        {
+          "text": "Blend into the shadows and wait for them to pass",
+          "points": {
+            "veilwalker": 1,
+            "renegade": 1
+          }
+        }
+      ],
+      "background": "hall-bg.jpeg"
+    },
+    {
+      "question": "Something observes you silently from the shadows, its presence enveloping the crumbling hall. The shifting darkness seems to coil around you, not with malice, but with an almost piercing curiosity, examining your very essence. You feel it deeply, as if it’s delving into the hidden corners of your mind, reading the unspoken truths within you.\nYou’ve come to think of it simply as the Entity, though it seems to be more — something beyond understanding, a reflection of a failed experiment, a fragment of something greater. To your surprise, it speaks immediately, its voice a soft whisper that echoes through your mind.\n\"Knowledge is power, but power always comes with a price. What will you give for the truth?\"\nIt seemed to know, in some strange way, what to ask. What is most important to you now, lost and forsaken one. The Entity falls silent, its shadows waiting, anticipating your response.",
+      "answers": [
+        {
+          "text": "\"Everything I have, if it means uncovering the truth\"",
+          "points": {
+            "seeker": 2
+          }
+        },
+        {
+          "text": "\"I will sacrifice anyone, but not myself. Power is worth any cost\"",
+          "points": {
+            "conqueror": 1,
+            "renegade": 1
+          }
+        },
+        {
+          "text": "\"I will take what I need, but I will not give more than I must\"",
+          "points": {
+            "revenant": 1,
+            "veilwalker": 1
+          }
+        }
+      ],
+      "background": "hall-bg.jpeg"
+    },
+    {
+      "question": "The Entity seems to hesitate for a moment, its presence pressing against your mind, making it impossible to tell if it is disappointed, angry, or simply indifferent. The silence stretches between you, heavy and thick, before its voice echoes once again, not in your ears, but deep inside your skull, as if it were speaking directly to the core of your thoughts.\n\"Your memory... he took it. The Necromancer. My former master. But now he's gone, fled... abandoned us both.. Yet, I will help you. If you help me. You want answers, don’t you?\"\nAs the Entity’s words settle into the thick air, the shadows shift, and you feel the weight of its gaze upon you, like an endless judgment. It waits for your response. The choice is yours to make, and your heart beats with the gravity of the decision ahead. Will you yield to the pressure and follow the path laid out for you? Or will you forge your own way, defying the rules that have been set?",
+      "answers": [
+        {
+          "text": "\"I’ll weigh the cost. But I won’t make a move unless it really benefits me in the end\"",
+          "points": {
+            "conqueror": 1,
+            "revenant": 1
+          }
+        },
+        {
+          "text": "\"I’ll go along... for now. But I won't be led blindly\"",
+          "points": {
+            "keeper": 1,
+            "seeker": 1
+          }
+        },
+        {
+          "text": "\"You think I’ll just follow orders? No. But maybe we can both get what we want, if you’re willing to deal with my terms\"",
+          "points": {
+            "renegade": 2
+          }
+        }
+      ],
+      "background": "hall-bg.jpeg"
+    },
+    {
+      "question": "The Entity falls silent once again, leaving behind a silence so heavy it almost presses against your thoughts. Perhaps it didn’t like your answer. Perhaps your response didn’t align with its plans, its expectations. Or perhaps... it’s just your imagination? Its shadow begins to dissolve, the silhouettes fading away like morning mist caught by an unforgiving wind. Was it your enemy you just confronted? Or have you unknowingly gained an ally?\nA faint wisp of the fading shadow stretches along the floor, slithering toward the towering columns ahead. In your chest, a sudden and inexplicable pull awakens — an urge to follow, irrational but undeniable. After all, amidst these desolate ruins, no other path reveals itself.\nAfter several steps, the corridor stretches into the darkness, long and foreboding. The only light comes from faint runes etched into the walls, their dim glow barely enough to make out your surroundings. Ahead lies the unknown, a labyrinth of shadows and choices. And then, the voice of the Entity echoes once more:\n\"The way forward is yours to choose... but each step shapes what you become.\"",
+      "answers": [
+        {
+          "text": "\"If there is a truth hidden here, I will uncover it, no matter the cost\"",
+          "points": {
+            "seeker": 1,
+            "revenant": 1
+          }
+        },
+        {
+          "text": "\"Not every shadow deserves trust... but there is no harm in seeing where it leads\"",
+          "points": {
+            "renegade": 1,
+            "keeper": 1
+          }
+        },
+        {
+          "text": "\"Shadows hide secrets, and secrets bring power. This path might yet prove useful\"",
+          "points": {
+            "conqueror": 1,
+            "veilwalker": 1
+          }
+        }
+      ],
+      "background": "corridor-bg.jpeg"
+    },
+    {
+      "question": "You keep moving forward, the sharp crunch of loose stones beneath your boots echoing through the suffocating silence. The corridor twists and turns, leading you deeper into its oppressive darkness. Eventually, the passage widens, revealing a split ahead — three narrow, crooked corridors, each stretching into the unknown. From each, as if on cue, a voice begins to emerge. They are not shouts or whispers, but something in between, resonating within the deepest corners of your mind. It is impossible to tell if these voices are real or simply your own thoughts, distorted and cast back at you by this cursed place. But each one carries a strange pull, tempting you to follow.\nFrom the first path, a faint sound reaches your ears — an eerie, low whisper that gradually turns into strained, desperate breathing. \"You can’t escape. There’s nowhere to hide. It will find you. It always finds you.\"\nThe whisper grows closer, its tone shifting — becoming more insistent, as if trying to catch your attention. \"But... I know how to stop it. I have something that will protect you... something you can use.\" A soft rustling follows, as if something — or someone — slips through the shadows just out of view. The voice lingers in your mind, coaxing you deeper into the unknown, promising safety... if you follow.\nThe second passage carries a low, urgent voice and the faint noise of hurried steps. \"This way — quickly! We have to move before it’s too late! It’s not safe to stay here!\"\nThe voice fades in and out, as though the speaker is moving further into the darkness. But there’s an unspoken challenge in their urgency — do you follow blindly, or question where they lead?\nFrom the third corridor comes a strangled shout, followed by the sound of stone crumbling. \"Help! Please! It’s caving in — I’m trapped! Someone, please!\" The desperation in their voice is unmistakable. The sound of falling rubble intensifies, and for a moment, you think you see dust billowing out from the mouth of the corridor. Time may be running out for whoever is calling.",
+      "answers": [
+        {
+          "text": "The first corridor",
+          "points": {
+            "veilwalker": 1,
+            "conqueror": 1
+          }
+        },
+        {
+          "text": "The second corridor",
+          "points": {
+            "seeker": 1,
+            "renegade": 1
+          }
+        },
+        {
+          "text": "The third corridor",
+          "points": {
+            "keeper": 2
+          }
+        }
+      ],
+      "background": "corridor-bg.jpeg"
+    },
+    {
+      "question": "As you step into the chosen corridor, the others fade into nothingness, leaving only cold, unyielding stone where they once were. A familiar, chilling presence brushes against your thoughts. The Entity’s voice fills your mind:\n \"Three paths, one choice. Each step shapes what you will become. Keep going, little one... You are beginning to see.\"\n Time here felt distorted, stretching and contracting without logic or mercy. How long you had been walking, you couldn’t say. The black corridors seemed unending, their suffocating void consuming every step. But then, as though growing tired of its game, the corridor spat you out before a massive door.\n It loomed before you: a monolithic slab of stone, adorned with intricate carvings that seemed to writhe when touched by shadow. Dry, darkened streaks of blood etched the grooves, as if a thousand hands had tried and failed to force their way through. There was no handle, no lock, no visible mechanism to grant passage.\n A thought slithered into your mind — your own, or perhaps placed there by something unseen: \"To pass, you must leave a part of yourself here. Blood for blood. Life for life.\" Your heart thudded in your chest. How would you approach this challenge?",
+      "answers": [
+        {
+          "text": "Strike the door with all your might. If it’s a barrier, then barriers are meant to be broken",
+          "points": {
+            "veilwalker": 1,
+            "conqueror": 1
+          }
+        },
+        {
+          "text": "Cut your hand, let the blood flow freely. The carvings seem to call for it, demanding a true sacrifice",
+          "points": {
+            "revenant": 2
+          }
+        },
+        {
+          "text": "Examine the patterns carefully. There must be a sequence or a safer way to bypass the blood price",
+          "points": {
+            "keeper": 1,
+            "renegade": 1
+          }
+        }
+      ],
+      "background": "corridor-bg.jpeg"
+    },
+    {
+      "question": "The door trembled, its surface shimmering with a faint, otherworldly light. The carvings twisted, forming new shapes, almost as if alive. Then, with a deep, resonating groan, the slab began to shift, dragging itself open to reveal what lay beyond. A rush of stale, cold air poured through the gap. The way forward was open, but you couldn’t shake the feeling that the door had taken something from you, whether or not you had noticed or allowed.\nThe suffocating corridors give way to an unexpected stillness. Before you stretches a vast courtyard, enclosed by crumbling stone walls. A lifeless garden sprawls out beneath a gray, unmoving sky, the clouds thick and oppressive, yet refusing to weep.\nCracked statues stand scattered throughout the space, their weathered features contorted in expressions you can’t quite place — anguish? Reverence? Defiance? Dead trees twist their gnarled branches skyward, clawing for a sun that no longer shines. A brittle wind passes through, carrying neither sound nor scent, only the weight of silence.\nThe air here is still, as though the garden has been locked in this moment for eternity, untouched and forgotten. An eerie silence hangs heavily, and though no words are spoken, a question seems to hang in the air, unspoken yet undeniable: what does this place stir within you?",
+      "answers": [
+        {
+          "text": "A nagging curiosity",
+          "points": {
+            "seeker": 1,
+            "veilwalker": 1
+          }
+        },
+        {
+          "text": "An unsettling pressure, as though being watched",
+          "points": {
+            "conqueror": 1,
+            "renegade": 1
+          }
+        },
+        {
+          "text": "A strange sense of peace",
+          "points": {
+            "keeper": 1,
+            "revenant": 1
+          }
+        }
+      ],
+      "background": "garden-bg.jpeg"
+    },
+    {
+      "question": "No matter what emotion this desolate scene stirs within you, it lingers, leaving its mark. The silence seems to listen, responding not with sound but with a faint shift in the air — a subtle invitation. Ahead, the statues part slightly, revealing a narrow path winding toward the heart of the Silent Garden.\nYou wander deeper, unsure of what exactly you're searching for, but something stirs faintly within you. It’s a feeling, almost imperceptible, like the flutter of a distant memory. Fragments flash across your mind, brief and elusive, but they slip through your grasp before you can make sense of them.\nAs you move further, you come upon a fountain — silent, still, its water untouched by the passing of time. Despite the decay that surrounds it, the water remains strangely clear, reflecting the gray sky above and the crumbling statues around. You peer into the basin, looking at your own reflection, and something shifts.\nAt first, it’s a subtle distortion, like a wave passing across the surface, but as you focus, the changes become more distinct. Your reflection is no longer just you; it has taken on a different shape, a different essence. What exactly has changed?..",
+      "answers": [
+        {
+          "text": "A shadowy presence appears behind your reflection, its form blending with yours.",
+          "points": {
+            "veilwalker": 2
+          }
+        },
+        {
+          "text": "Your reflection looks brighter, as if a soft light now surrounds you.",
+          "points": {
+            "seeker": 1,
+            "keeper": 1
+          }
+        },
+        {
+          "text": "Scars emerge across your reflection's face, radiating raw strength and defiance.",
+          "points": {
+            "renegade": 1,
+            "revenant": 1
+          }
+        }
+      ],
+      "background": "garden-bg.jpeg"
+    },
+    {
+      "question": "You feel it before you see it — the presence behind you, shifting and undefined, like smoke caught in a draft. Turning slowly, you face the Entity, its silhouette still an incomprehensible amalgamation of shapes. Yet, despite the chaos, it feels singular, complete.\nIt speaks, its voice tinged with faint amusement. \"Do you like what you see?\"\nYour gaze shifts back to the fountain for a moment, to the reflection that no longer seems entirely yours. Then you look at the Entity again, a faint frown of confusion pulling at your brow. There’s something unsettling about meeting its gaze, its form so alien, so abstract.\nThe Entity notices, and it leans forward, ever-shifting form looming as its many eyes focus intently on you, as if peeling back layers to see what lies beneath. Slowly, its outline begins to coalesce, morphing into something different, something familiar. And now in front of you is no longer a shapeless shadow, but...",
+      "answers": [
+        {
+          "text": "A noble knight, scarred by countless battles, yet still carrying the weight of honor",
+          "points": {
+            "keeper": 1,
+            "seeker": 1
+          }
+        },
+        {
+          "text": "A tall, sharp-featured diplomat, with piercing eyes and a calculating gaze",
+          "points": {
+            "veilwalker": 1,
+            "renegade": 1
+          }
+        },
+        {
+          "text": "A seasoned mercenary, tough and weathered from years of combat",
+          "points": {
+            "revenant": 1,
+            "conqueror": 1
+          }
+        }
+      ],
+      "background": "garden-bg.jpeg"
+    },
+    {
+      "question": "The Entity watches your reaction, a hint of amusement flickering in its shifting form. \"Better now?\" it asks sarcastically. Before you can respond, the shape changes slightly, as if it’s finally considering you with more seriousness. \"I misjudged you before,\" the voice says with an edge of disbelief. \"Rushed things... underestimating you, perhaps. But now, I understand. I’m willing to make a deal. I can give you power in exchange for a service. A part of what the Necromancer once held.\" The Entity pauses, letting the weight of its words sink in, before it leans closer, its eyes dark and calculating. \"Tell me what you want.\"",
+      "answers": [
+        {
+          "text": "\"Give me the strength to survive and escape. I want power to reshape my fate, to escape the chains that bind me\"",
+          "points": {
+            "revenant": 1,
+            "renegade": 1
+          }
+        },
+        {
+          "text": "\"I want the ability to see what’s hidden. Power to uncover truths and defend what matters\"",
+          "points": {
+            "seeker": 1,
+            "keeper": 1
+          }
+        },
+        {
+          "text": "\"I seek strength. Power to conquer, to break what stands in my way. I will take what’s mine by force.\"",
+          "points": {
+            "conqueror": 2
+          }
+        }
+      ],
+      "background": "garden-bg.jpeg"
+    },
+    {
+      "question": "The Entity regards you silently for a moment. \"This is what I expected,\" it says, a faint trace of satisfaction in its voice. \"I will grant you the power you seek, but you must follow me.\"\nThe passage from the stillness of the garden feels almost unnatural, as if the very air shifts around you. The terrace awaits, bathed in the dying light of the setting sun. At its center stands an altar, ancient and covered with glowing symbols, pulsing faintly in time with the fading sunlight. A breeze stirs the air, and you sense the weight of the moment — this is the final decision.\nThe Entity speaks again, its voice calm but pressing. \"The crystal on the altar holds this place together, as well as everything trapped within it. I cannot destroy it myself, for I lack a true physical form. Those who once could, are long gone.\"\nAs you stare at the crystal, something inside you clicks. You realize that destroying it won’t just free you, but also the countless trapped souls and forces contained here. But then, a deeper, darker thought strikes you. If you don’t destroy it... if you leave it intact... you and everything here will remain trapped, bound by the crystal for eternity. You would be nothing more than a prisoner, forced to wander this place forever. The weight of that possibility presses down on you, and you know you must decide.",
+      "answers": [
+        {
+          "text": "\"Destroying it? Why not? If that’s what it takes to escape, I’ll do it. It’s not about others... it’s about me getting what I need\"",
+          "points": {
+            "conqueror": 1,
+            "renegade": 1
+          }
+        },
+        {
+          "text": "\"It’s too much to ask. Destroying the crystal might release more than we can control. I can’t risk it\"",
+          "points": {
+            "keeper": 1,
+            "veilwalker": 1
+          }
+        },
+        {
+          "text": "\"I see now. If breaking the crystal will free us all... maybe that's the only way forward\"",
+          "points": {
+            "revenant": 1,
+            "seeker": 1
+          }
+        }
+      ],
+      "background": "sun-bg.jpeg"
+    },
+    {
+      "question": "The entity smirks crookedly, its voice tinged with amusement. \"You almost started to grow on me,\" it says. \"But you’re just as trusting as those before you. It’s the same mistake every time.\" Suddenly, the entity’s presence surges into you, and you feel its power seep into your body. Your consciousness remains yours, but your body no longer obeys. Your fist strikes the shimmering crystal, and it shatters into countless fragments under the force of your blow.\nAt first, nothing seems to change. The air still feels heavy, but there’s a subtle shift, as if it’s a little easier to breathe. The memories don’t return, but you feel something deep inside, a sense of yourself that has taken root in your chest. Control over your body returns, but the presence of the entity remains. It’s weaker now, clawing at your mind, but still there, in your soul, in your heart — wherever the necromancer’s influence lingers.\nThe entity, shocked and enraged, thrashes within, protesting. But you no longer listen to it. You don't know what you need to do, but you'll figure it out later. You’re free now, and ahead of you lies the unknown. But one thing is certain: you now understand who you are. The class you have chosen — or rather, the class that has chosen you — is now undeniable.",
+      "answers": [
+        {
+          "text": "So... Who are you?",
+          "points": {}
+        }
+      ],
+      "background": "sun-bg.jpeg"
+    }
+  ],
+  "results": {
+    "conqueror": {
+      "title": "The Conqueror",
+      "text": "You are a conqueror at heart, driven by an unrelenting ambition to rise above others. Power is what you seek, and nothing will stand in your way. Your mind is sharp, and your ability to manipulate people and situations makes you a formidable force. You are willing to do whatever it takes to achieve your goals, even if it means crossing moral lines. To you, the ends always justify the means.\nYour cunning nature allows you to inspire those around you, leading them with charisma and strength, especially when your personal goals align with theirs. You know how to use others, how to make them feel as if their contributions are essential to your greater cause, all while ensuring your own power continues to grow. Your ambition has the potential to bring great success, but it also makes you a dangerous individual — one who is willing to sacrifice anything, and anyone, to achieve greatness.\nThe entity trapped within you, though resistant at first, has granted you the dark power of the necromancer. With this ability, you can take the strength, the vitality, or the energy of others, using it to fuel your own ascent. It is a power that feeds your relentless drive, but with it comes the danger of losing yourself, becoming nothing more than a predator, consumed by your own thirst for control.\nAt your core, you are a force of nature, a driven and ambitious leader who will stop at nothing to claim your rightful place at the top. Your power to take what others have is both your greatest strength and your most dangerous flaw. You are a conqueror, not just of people, but of your own destiny — one who will stop at nothing to shape the world in your image, no matter the cost."
+    },
+    "keeper": {
+      "title": "The Keeper",
+      "text": "You are someone who values wisdom above all else, constantly seeking to understand the world and its intricacies. Deep down, you are protective, always wanting to safeguard those who cannot protect themselves. Your decisions are guided by a sense of duty, as you strive to maintain balance in a world that often seems to lack it. You stand firm, resolute in your beliefs, and are not afraid to face difficult situations head-on, knowing that your strength can shield others from harm.\nHowever, this protective nature can sometimes lead to sacrifices. You may find yourself making decisions for others, believing that you know what's best, even if they have not asked for your help. Your sense of responsibility can sometimes be overwhelming, and the weight of those decisions can lead you to carry more than your fair share of the burden. You may feel torn between protecting those around you and the knowledge that some things, perhaps, are beyond your control.\nYour connection to the past is strong, and despite the resistance of the entity that now lingers within you, it has fulfilled its promise — though begrudgingly. The power granted to you is a gift from the necromancer’s craft, the ability to call upon the wisdom of those who have passed. The spirits of the past now offer their counsel, appearing in your mind when you stand at a crossroads. This gift allows you to navigate through uncertainty, but it is not without its cost. The presence of the entity, though weakened, still clings to you, a constant reminder of the pact made. The weight of the past, along with the force that once sought to control you, will always be with you, as you struggle to honor the lives that came before, while shaping your own future.\nAt your core, you are a protector and a guide, driven by a deep desire to preserve harmony and offer strength to those who need it."
+    },
+    "seeker": {
+      "title": "The Seeker",
+      "text": "You are driven by an insatiable curiosity, always seeking the truth and the deeper meaning behind the world around you. Your mind is sharp, constantly questioning and exploring, pushing the boundaries of what you know. You are not content with surface-level answers but dive deep into the unknown, eager to uncover hidden knowledge that others might shy away from.\nThis thirst for understanding can sometimes lead you down dark paths, especially when the pursuit of knowledge blinds you to the dangers lurking in the shadows. Your experiments and investigations, though fueled by a genuine desire for growth, have the potential to spiral out of control, harming both you and those around you.\nThe entity that resides within you, despite its unwillingness, has honored its promise and granted you a gift. You now have access to fragments of the necromancer's ancient knowledge, whispers of long-lost secrets that can help guide your path. Yet, these secrets come with a price, and their allure may lead you into deeper mysteries — some that may be better left undiscovered.\nAt your core, you are a seeker, a relentless pursuer of truth who is willing to confront the unknown. Your hunger for knowledge drives you to constantly question, adapt, and grow, but it also leaves you walking a fine line between enlightenment and destruction. You are defined by your unyielding pursuit of understanding, ready to challenge anything that stands between you and the answers you crave."
+    },
+    "renegade": {
+      "title": "The Renegade",
+      "text": "You are someone who values independence above all else, forging your own path without being beholden to anyone’s rules or expectations. Your sarcastic nature hides a sharp mind and a well-honed ability to manipulate situations to your advantage. You thrive in environments where chaos reigns, and your skill in bending others to your will ensures that you always have the upper hand, even when it seems like the odds are stacked against you. There’s no room for hesitation or doubt in your world — only the ruthless pursuit of your goal.\nHowever, your reliance on manipulation and deceit comes at a price. While you can be a powerful ally to those who serve your interests, you are quick to discard anyone once they no longer prove useful. You are driven by your own ambition, willing to sacrifice others in pursuit of your personal goals. Your mind is often clouded by the temptation of power, leading you down darker paths that may lead to irreversible consequences.\nThe entity trapped within you, unwilling to accept its fate, reluctantly kept its promise to you. It has granted you the ability to command the shadows themselves, manipulating darkness to create illusions and traps, weaving your reality as you see fit. This power, though potent, comes with its own dangers—the more you rely on it, the more it can consume you, turning your very existence into a game of deception.\nAt your core, you are a force driven by ambition and self-interest, constantly seeking to expand your influence and control. Your pursuit of power knows no boundaries, and you will stop at nothing to achieve your goals. While you may protect those you deem worthy of your protection, your loyalty is fleeting—only as long as it serves your purpose. You are a master of manipulation, always calculating your next move, ready to embrace the darkness in your quest for dominance."
+    },
+    "veilwalker":{
+      "title": "The Veilwalker",
+      "text": "You are a shadow, both in body and mind. Silent, elusive, and always hidden, you move through the world like a whisper in the dark. Your preference is to stay unseen, to avoid the chaos and the conflict that others crave. The quietude of the shadows is your sanctuary, a place where you can observe and learn without interference.\nYour ability to remain unnoticed gives you a unique advantage: you see what others cannot. You understand the subtle shifts in the air, the unnoticed flicker of an expression, the hesitation in a breath. In these silent moments, you find opportunities others would miss. This skill allows you to manipulate situations to your advantage, to strike from the darkness when no one expects it.\nBut while you thrive in solitude, your obsession with remaining in the shadows can isolate you from those who might be able to help. Trust is a foreign concept to you, and this mistrust often leads you down dangerous paths. Your manipulative tendencies, though often a means of survival, can also alienate those around you. While you are adept at avoiding danger, you may unintentionally create your own by pushing others away.\nThe entity that lingers within you — unwanted and still pressing — has fulfilled its promise, though its gift was reluctantly given. It has granted you the ability to fade into the background, to move unseen as if you were but a ghost, a shadow in a world too bright for you.\nAt your core, you are a creature of the shadows, driven by a desire for freedom from the control of the necromancer. You trust no one and prefer the safety of isolation, always calculating the next move. You are a master of manipulation, able to twist situations to suit your needs, and your ability to move unseen is both a strength and a curse. In the darkness, you are at home, but even shadows must one day face the light."
+    },
+    "revenant":{
+      "title": "The Revenant",
+      "text": "You are a person driven by purpose, relentlessly focused on changing the course of your life and the lives of those around you. Where others might see obstacles, you see opportunities—opportunities to reshape destiny. Your determination keeps you moving forward, even when the path is unclear or fraught with difficulty. You are not afraid to challenge the world around you, for you believe in your ability to forge a new future.\nHowever, your single-minded pursuit of change can sometimes lead you down a darker path. The ends often justify the means in your mind, and you can become so absorbed in your mission that you lose sight of morality and the consequences of your actions.\nThrough the pact with the entity, which now resides within you, you have gained a powerful gift. Reluctantly, it granted you the ability to draw strength from others, taking life force from your enemies to bolster your own. Though the entity that lingered within you fought against this, it has still fulfilled its promise, granting you this dark, yet potent, power. You can now feed off the energy of those around you, growing stronger with each victory, but at what cost? The more you use this gift, the more you risk losing sight of your own humanity in the process.\nAt your core, you are a relentless force of change, fueled by an unwavering drive to reshape the future. You seek to alter the course of fate, never settling for the world as it is. While your pursuit of transformation can lead you down dark paths, your determination to achieve your vision makes you a formidable and resolute figure. You are defined by the strength to challenge what others believe to be unchangeable, carving your own destiny with every step you take."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+body {
+  background-image: url('img/bg/sun-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  background-blend-mode: overlay;
+  height: 100dvh;
+  display: flex;
+  gap: 80px;
+
+  .character {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-left: 60px;
+
+    h2 {
+      font-family: 'Cormorant SC', serif;
+      margin: 34px 0 0;
+      font-weight: normal;
+      font-size: 35px;
+      color: #FFF6EC;
+      text-align: center;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 367px;
+        height: 1px;
+        background-color: #FFF6EC;
+        margin: 7px auto 0;
+      }
+    }
+
+    img {
+      height: 80vh;
+    }
+  }
+
+  .text {
+    font-family: 'Cormorant Garamond', serif;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: center;
+    padding: 40px 38px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFF6EC;
+    text-align: center;
+    background-color: #0007;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 9px 64px;
+    background-color: transparent;
+    border: #FFF6EC 1px solid;
+    border-radius: 3px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: normal;
+    font-size: 35px;
+    color: #FFF6EC;
+    text-align: center;
+    width: 214px;
+    cursor: pointer;
+  }
+}
