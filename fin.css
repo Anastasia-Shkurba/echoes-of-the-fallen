@@ -7,8 +7,11 @@ body {
   margin: 0;
   background-blend-mode: overlay;
   height: 100dvh;
-  display: flex;
-  gap: 80px;
+
+  .container {
+    display: flex;
+    gap: 80px;
+  }
 
   .character {
     display: flex;
@@ -36,6 +39,7 @@ body {
 
     img {
       height: 80vh;
+      width: auto;
     }
   }
 
@@ -44,22 +48,27 @@ body {
     margin: auto 0;
     display: flex;
     flex-direction: column;
-    gap: 23px;
-    justify-content: center;
-    padding: 40px 38px;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 60px 38px 0;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 22px;
     color: #FFF6EC;
     text-align: center;
     background-color: #0007;
     box-sizing: border-box;
     height: 100vh;
+    position: relative;
+
+    p {
+      margin: 0;
+    }
   }
 
   button {
     display: block;
     margin: 0 auto;
-    padding: 9px 64px;
+    padding: 9px 40px;
     background-color: transparent;
     border: #FFF6EC 1px solid;
     border-radius: 3px;
@@ -70,5 +79,18 @@ body {
     text-align: center;
     width: 214px;
     cursor: pointer;
+    position: absolute;
+    bottom: 4%;
+    left: 70%;
+    transform: translateX(-50%);
+    transition: background-color 0.2s linear;
+    
+    &:hover {
+      background-color: rgba(57, 12, 0, 0.7);
+    }
+
+    &:active {
+      background-color: rgba(57, 12, 0, 0.7);
+    }
   }
 }

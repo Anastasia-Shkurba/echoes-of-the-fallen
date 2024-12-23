@@ -33,6 +33,51 @@ p {
   max-width: 840px;
 }
 
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 9px 63px;
+  background-color: transparent;
+  border: #FFF6EC 1px solid;
+  border-radius: 3px;
+  font-family: 'Cormorant SC', serif;
+  font-weight: normal;
+  font-size: 35px;
+  color: #FFF6EC;
+  text-align: center;
+  width: 214px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: color 1s;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background-color: #FFF6ECE5;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.5s;
+  }
+
+  &:hover {
+    color: #390C00;
+  }
+
+  &:hover::before {
+    width: 150%;
+  }
+
+  &:active::before {
+    width: 150%;
+    ;
+  }
+}
+
 .toggle {
   width: 258px;
   height: 37px;
@@ -111,7 +156,15 @@ p {
   }
 
   p {
-    font-size: 24px;
+    font-size: 22px;
     max-width: 365px;
+    padding: 10px 12px;
+  }
+
+  button {
+    padding: 5px 40px;
+    background-color: transparent;
+    font-size: 25px;
+    width: 170px;
   }
 }
