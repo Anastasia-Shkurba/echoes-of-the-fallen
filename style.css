@@ -4,8 +4,33 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
+  padding: 0 15px;
   background-blend-mode: overlay;
   height: 100dvh;
+  background-image: url('img/bg/main-upscale.jpeg');
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Cormorant SC', serif;
+  margin: calc(10vw) 0 0;
+  font-weight: normal;
+  font-size: 100px;
+  color: #D29759;
+  text-align: center;
+  text-shadow:
+    1px 1px 0 #473820,
+    -1px 1px 0 #473820,
+    1px -1px 0 #473820,
+    -1px -1px 0 #473820;
 }
 
 p {
@@ -15,6 +40,10 @@ p {
   font-weight: normal;
   color: #FFF6EC;
   text-align: center;
+  margin: 11px auto 30px;
+  padding: 15px 58px;
+  font-size: 26px;
+  max-width: 840px;
 }
 
 button {
@@ -57,6 +86,106 @@ button {
   }
 
   &:active::before {
-    width: 150%;;
+    width: 150%;
+  }
+}
+
+.toggle {
+  width: 258px;
+  height: 37px;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 30px;
+
+  label {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #2B015E;
+    color: #A4A4A4;
+    cursor: pointer;
+    box-shadow: inset -4px 4px 10px rgba(96, 93, 93, 0.9);
+  }
+
+  span {
+    width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    transition: 0.4s linear;
+  }
+
+  .slider {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    background-color: #D29759;
+    box-shadow: inset 4px 4px 10px rgba(86, 69, 41, 0.5);
+    color: #000;
+    justify-content: flex-start;
+    overflow: hidden;
+
+    span {
+      width: 100%;
+    }
+
+    :checked+label>& {
+      transform: translateX(129px);
+
+      span {
+        transform: translateX(-100%);
+      }
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  h2 {
+    font-size: 80px;
+    max-width: 453px;
+  }
+
+  p {
+    font-size: 24px;
+    max-width: 573px;
+  }
+
+  button {
+    padding: 9px 43px;
+    width: 170px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 75px;
+  }
+
+  p {
+    font-size: 23px;
+    max-width: 365px;
+    padding: 10px 12px;
+  }
+
+  button {
+    padding: 5px 40px;
+    font-size: 30px;
+    width: 170px;
+  }
+
+  .toggle {
+    margin-top: 100px;
+    margin-bottom: 30px;
   }
 }
