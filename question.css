@@ -5,7 +5,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-  background-blend-mode: overlay;
   height: 100dvh;
 }
 
@@ -90,6 +89,16 @@ body {
 }
 
 @media (max-width: 769px) {
+  body {
+    background-image: url('img/bg/tomb-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    margin: 0;
+    height: 100%;
+  }
+
   .question {
     max-width: 1000px;
 
@@ -117,6 +126,16 @@ body {
 }
 
 @media (max-width: 560px) {
+  body {
+    background-image: url('img/bg/tomb-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    margin: 0;
+    height: 100%;
+  }
+
   .question {
   padding: 10px;
 

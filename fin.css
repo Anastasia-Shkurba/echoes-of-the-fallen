@@ -80,7 +80,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   gap: 15px;
-  padding: 35px 30px 0;
+  padding: 35px 5px 0;
   font-weight: normal;
   font-size: 22px;
   color: #FFF6EC;
@@ -122,6 +122,16 @@ body {
 }
 
 @media (max-width: 670px) {
+  body {
+    background-image: url('img/bg/tomb-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    margin: 0;
+    height: 100%;
+  }
+
   .container {
     display: flex;
     flex-direction: column;

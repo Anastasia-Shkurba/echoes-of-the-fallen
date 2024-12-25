@@ -1,0 +1,18 @@
+{
+  "main-title": {
+    "en": "Echoes of the Fallen",
+    "uk": "Відлуння забутого"
+  },
+  "intro": {
+    "en": "A journey begins, shrouded in mystery and forgotten truths. With each choice, you will gather the fragments of a lost soul, forging your path and discovering your purpose. This is more than a test; it is the awakening of a spirit seeking answers in the dark.",
+    "uk": "Починається подорож, оповита таємницями і забутими істинами. З кожним вибором ти збиратимеш уламки загубленої душі, прокладаючи свій шлях і відкриваючи своє призначення. Це більше, ніж просто випробування; це пробудження духу, що шукає відповіді у темряві."
+  },
+  "start": {
+    "en": "Start",
+    "uk": "Почати"
+  },
+  "restart": {
+    "en": "Restart",
+    "uk": "Почати знову"
+  }
+}

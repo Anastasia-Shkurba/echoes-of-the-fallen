@@ -1,5 +1,6 @@
 const questionContainer = document.querySelector('.question');
 const btnContainer = document.querySelector('.btns');
+const lang = localStorage.getItem('lang')||'en';
 
 let questions = [];
 let currentQuestion = 0;
@@ -33,8 +34,15 @@ function storeProgress() {
 }
 
 async function getQuestions() {
-  const response = await fetch('quiz.en.json');
+  const response = await fetch(`quiz.${lang}.json`);
   const { questions } = await response.json();
+
+  const images = [... new Set(questions.map(q => q.background))];
+
+  images.forEach(image => {
+    const img = new Image();
+    img.src = `img/bg/${image}`;
+  });
 
   return questions;
 }
@@ -42,6 +50,7 @@ async function getQuestions() {
 function startQuiz(data) {
   questions = data;
   showQuestion(currentQuestion);
+  document.body.hidden = false;
 }
 
 function showQuestion(questionIndex) {
@@ -55,6 +64,8 @@ function showQuestion(questionIndex) {
     `
   }).join('');
   document.body.style.backgroundImage = `url('img/bg/${background}')`;
+
+  document.documentElement.scrollTop = 0;
 }
 
 function handleClick(e) {
