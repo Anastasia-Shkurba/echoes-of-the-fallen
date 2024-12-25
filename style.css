@@ -165,7 +165,8 @@ button {
 
 @media (max-width: 560px) {
   body {
-    overflow: hidden;
+    background-attachment: initial;
+    margin: 0;
     height: 100%;
   }
 
@@ -181,12 +182,26 @@ button {
 
   button {
     padding: 0 0;
+    margin-bottom: 10px;
     font-size: 30px;
     width: 170px;
   }
 
   .toggle {
-    margin-top: 100px;
-    margin-bottom: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
+
+@media (max-width: 560px) {
+  h2 {
+    font-size: 65px;
+  }
+
+  p {
+    font-size: 22px;
+    max-width: 365px;
+    padding: 10px 12px;
+  }
+}
+
